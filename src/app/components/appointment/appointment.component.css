@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+/* Header Desgine*/
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.background{
+    background-color: skyblue;
+}
+.reservepage{
+    background-color: rgb(236, 241, 236);
+    padding: 100px;
+    justify-content: center;
+}
+.heading{
+    color: rgb(84, 170, 240);
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.bg{
+    background-color: white;
+    width: 600px;
+    padding: 20px 100px;
+}
+.container-fluid{
+    background-color: rgb(235, 241, 235);
+    justify-content: center;
+}
+.radioNo{
+    margin-left: 20px;
+}
+
+.confirm{
+    margin-top: 40px;
+    font-family: cursive;
+    padding-top: 25%;
+}

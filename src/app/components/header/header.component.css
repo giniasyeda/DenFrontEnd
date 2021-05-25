@@ -1,0 +1,33 @@
+.header{
+    background: rgb(142, 128, 235);
+    height: 80px;
+    display: flex;
+    width: 100%;
+    padding-right: 22px;
+    
+  }
+
+  .text{
+    font-family: cursive;
+    padding-top: 20px;
+    font-size: 30px;
+  }
+
+  .navbar{
+  
+    color: aliceblue;
+  
+  }
+
+  .button {
+    font-family: cursive;
+  }
+
+  /* this class will separate the logo and the nav bar*/
+  .spacer{
+    flex: 1 1 auto;
+  }
+
+  a[routerLink]{
+    color: white;
+  }

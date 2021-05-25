@@ -1,0 +1,17 @@
+.full-width{
+    width: 100%;
+    font-family: cursive;
+}
+.login{
+    width: 100%;
+    height: 1080px;
+    padding: 100px;
+    text-align: center;
+}
+.btnmargin{
+    margin-top: 15px;
+}
+
+.textcenter{
+    font-family: cursive;
+}

@@ -1,0 +1,82 @@
+<div class="header">  
+    <a routerLink="/home"> <button class="button" class="text" mat-button ="menu">The Smiling</button></a>
+
+
+    <!-- this class will separate the logo and the nav bar -->
+    <div class="spacer"></div>
+
+    <div class="navbar" >
+        <a routerLink="/home"><button class="button" mat-button="/" >Home
+            <!-- this is for home icon -->
+            <!-- <mat-icon class="homeimg" aria-hidden="false" aria-label="Example home icon">home</mat-icon> -->
+         </button></a> 
+        
+        <!-- this drop down button -->
+         <!-- <a routerLink="services"> 
+            <button class="button" mat-button = "services">Services</button>
+            <div class="form-group">
+                <label for="select2"><br>
+                    
+                 Services: </label>
+                  <select class="radioNo" name="select2" id="select2">
+                    <option>-Select-</option>
+                    <option value="0">Dental Cleaning</option>
+                    <option value="1">Tooth-colored Cavity Fillings</option>
+                    <option value="2">Whitening</option>
+                    <option value="3">Emergency</option>
+                 
+                  </select>
+            </div>
+        
+        </a> -->
+
+        <!-- <a ><button class="button" mat-button [matMenuTriggerFor]="belowSer" >Locations</button></a> 
+        <mat-menu #belowSer="matMenu" yPosition="below">
+
+            <a routerLink="hicksville" class="menuItem"><button mat-menu-item>Hicksville, New York</button></a>
+            <a routerLink="locations" class="menuItem"><button mat-menu-item>Queens, New York</button></a>
+            <a routerLink="locations" class="menuItem"><button mat-menu-item>Brooklyn, New York</button></a>
+        </mat-menu> -->
+
+        <!-- this below downbutton -->
+        <a ><button class="button" mat-button [matMenuTriggerFor]="belowSer" >Services</button></a> 
+        <mat-menu #belowSer="matMenu" yPosition="below">
+
+            <a routerLink="services" class="menuItem"><button mat-menu-item>General Dentistry</button></a>
+            <a routerLink="services" class="menuItem"><button mat-menu-item>Cosmetic Dentistry</button></a>
+            <a routerLink="services" class="menuItem"><button mat-menu-item>Prosthodoritics</button></a>
+            <a routerLink="services" class="menuItem"><button mat-menu-item>Orthodontics</button></a>
+            <a routerLink="services" class="menuItem"><button mat-menu-item>Oral Surgery</button></a>
+        </mat-menu>
+
+
+         
+        <a routerLink="review"> <button class="button" mat-button ="review">Review</button></a>
+        <a routerLink="contact"> <button class="button" mat-button ="contact">Contact Us</button></a>
+        <a routerLink="about"><button class="button" mat-button = "about">About Us</button></a>
+       
+        <a routerLink="appointment"><button class="button" mat-button>Make an Appoinment</button></a> 
+        <!-- <a routerLink="treatment"><button class="button topmargin" mat-button="treatment">Services</button></a> -->
+        
+         
+        <!-- drop downbutton by using menu positioning code -->
+        <a ><button class="button" mat-button [matMenuTriggerFor]="belowMenu" >LOGIN</button></a> 
+        <mat-menu #belowMenu="matMenu" yPosition="below">
+
+            <a routerLink="login"  class="menuItem">  <button mat-menu-item>Login</button></a>
+            <a routerLink="login/register" class="menuItem"><button mat-menu-item>Register</button></a>
+       
+        </mat-menu>
+        
+       
+        
+        <!-- <a ><button class="button" mat-button ><span class="cartspace">Insurance</span><mat-icon></mat-icon></button></a>  -->
+        
+       
+       
+         
+       
+     </div>
+
+</div>
+

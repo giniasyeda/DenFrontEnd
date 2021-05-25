@@ -3,13 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { AppointmentComponent } from './components/appointment/appointment.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { BrooklynComponent } from './components/brooklyn/brooklyn.component';
 
 
 
 import { HeaderComponent } from './components/header/header.component';
-// import { HicksvilleComponent } from './components/hicksville/hicksville.component';
+import { HicksvilleComponent } from './components/hicksville/hicksville.component';
 
 import { HomeComponent } from './components/home/home.component';
+import { QueensComponent } from './components/queens/queens.component';
+
 
 import { RegisterComponent } from './components/register/register.component';
 import { ReviewComponent } from './components/review/review.component';
@@ -35,17 +38,23 @@ const routes: Routes = [
 
 },
 
-// {
-//   path: "hicksville",
-//   component: HicksvilleComponent,
-//   pathMatch:'full'
-// },
+{
+  path: "hicksville",
+  component: HicksvilleComponent,
+  pathMatch:'full'
+},
 
-// {
-//   path: "queens",
-//   component: QueensComponent,
-//   pathMatch: 'full'
-// },
+{
+  path: "queens",
+  component: QueensComponent,
+  pathMatch: 'full'
+},
+
+{
+  path: "brooklyn",
+  component: BrooklynComponent,
+  pathMatch: 'full'
+},
 
 // {
 //   path: "hicksville",

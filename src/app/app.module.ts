@@ -30,6 +30,8 @@ import { HomeComponent } from './components/home/home.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatNativeDateModule} from '@angular/material/core';
 import { HicksvilleComponent } from './components/hicksville/hicksville.component';
+import { QueensComponent } from './components/queens/queens.component';
+import { BrooklynComponent } from './components/brooklyn/brooklyn.component';
 
 
 
@@ -50,6 +52,9 @@ import { HicksvilleComponent } from './components/hicksville/hicksville.componen
     FooterComponent,
     HomeComponent,
     HicksvilleComponent,
+    QueensComponent,
+    BrooklynComponent,
+ 
    
   
     

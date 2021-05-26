@@ -32,6 +32,13 @@ import {MatNativeDateModule} from '@angular/material/core';
 import { HicksvilleComponent } from './components/hicksville/hicksville.component';
 import { QueensComponent } from './components/queens/queens.component';
 import { BrooklynComponent } from './components/brooklyn/brooklyn.component';
+import { AboutusComponent } from './components/aboutus/aboutus.component';
+import { CosmeticdentistyComponent } from './components/ourservices/cosmeticdentisty/cosmeticdentisty.component';
+import { OralsurgeryComponent } from './components/ourservices/oralsurgery/oralsurgery.component';
+import { OrthodonticsdentistyComponent } from './components/ourservices/orthodonticsdentisty/orthodonticsdentisty.component';
+import { ProsthodonticsdentistyComponent } from './components/ourservices/prosthodonticsdentisty/prosthodonticsdentisty.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { MakePaymentComponent } from './components/make-payment/make-payment.component';
 
 
 
@@ -54,6 +61,13 @@ import { BrooklynComponent } from './components/brooklyn/brooklyn.component';
     HicksvilleComponent,
     QueensComponent,
     BrooklynComponent,
+    AboutusComponent,
+    CosmeticdentistyComponent,
+    OralsurgeryComponent,
+    OrthodonticsdentistyComponent,
+    ProsthodonticsdentistyComponent,
+    ContactUsComponent,
+    MakePaymentComponent,
  
    
   
@@ -81,6 +95,8 @@ import { BrooklynComponent } from './components/brooklyn/brooklyn.component';
     MatDatepickerModule,
     MatInputModule,
     MatNativeDateModule,
+   
+    
     
     
     

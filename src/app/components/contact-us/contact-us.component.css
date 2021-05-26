@@ -1,0 +1,57 @@
+.header-styler{
+    padding-left: 37%;
+    padding-right: 37%;
+    padding-bottom: 3%;
+    position: relative;
+    background-color: skyblue;
+}
+
+.container{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.P2 {
+    text-align: center;
+}
+.btn {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    position:relative;
+    left: 45%;
+    top: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.btn:hover {
+    background-color: #225024;
+}
+
+footer{
+    font-size: small;
+    font-weight: lighter;
+    border-top: black;
+    margin-top: 3em;
+    padding-top: 10%;
+    margin-bottom: 0em;
+    padding-bottom: 0%;
+    
+}
+
+footer li{
+    display: inline;
+    text-decoration: none;
+    padding: .5em;
+    
+}
+
+footer img{
+    width: 25px;
+    height: 25px;
+    mix-blend-mode: multiply;
+
+}
